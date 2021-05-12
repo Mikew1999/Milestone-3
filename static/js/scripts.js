@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $('#login').click(function(){
-        $('#modal').toggle();
+        $('#modal').css('display', 'block');
     })
 })
+
