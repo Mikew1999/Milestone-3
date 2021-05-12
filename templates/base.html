@@ -33,18 +33,27 @@
                     </li>
                 </ul>
                 <span class="navbar-text">
-                    Login <span class="navbar-text"><i class="fas fa-user-circle"></i></span>
+                    <a href="#" id="login"> Login <span class="navbar-text"><i class="fas fa-user-circle"></i></span></a>
                 </span>
             </div>
         </div>
     </nav>
 
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <p>hello</p>
+        </div>
+    </div>
+
     {% block content %}
     {% endblock %}
 
+    <!--Bootstrap js-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <!--Javascript file-->
+    <script src="/static/js/scripts.js" charset="utf-8"></script>
 </body>
 
 </html>
