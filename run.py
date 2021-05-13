@@ -10,9 +10,9 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/blog")
-def blog():
-    return render_template("blog.html", page_title="blog")
+@app.route("/signin")
+def signin():
+    return render_template("signin.html", page_title="signin")
 
 
 if __name__ == "__main__":
